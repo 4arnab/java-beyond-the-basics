@@ -50,7 +50,6 @@ public class Strings {
         BigDecimal numberTwo = new BigDecimal("0.30");
 
         BigDecimal balance = numberTwo.subtract(numberOne);
-        balance.rou
         System.out.println(balance);
     }
 }
