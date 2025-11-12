@@ -4,8 +4,6 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
-import java.time.ZoneId;
-import java.util.Date;
 
 public class Strings {
 
@@ -30,6 +28,7 @@ public class Strings {
          * LocalTime <-- time related
          * */
 
+        LocalDateTime localDateTime = LocalDateTime.now();
         LocalDate today = LocalDate.now();
         LocalDate nextWeeks = today.plusWeeks(1);
         System.out.println(nextWeeks);
