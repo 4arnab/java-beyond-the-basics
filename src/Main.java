@@ -1,9 +1,12 @@
+import com.arnab.Car;
+
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args){
         System.out.println("hello form bank application");
 
+        Car newCar = new Car("blue", "land", 1066);
         Account account = new Account("ahmed abdifatah", "633140321");
 
         account.deposit(125, "Cash");
